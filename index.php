@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>PHP</title>
 </head>
 <body>
+    <h1>Exo PHP</h1>
     <?php
         $_nombre = 666; 
         $_nb = rand(0,1000);
-        $_i = 0
-        while($_nb != $_nombre) {
+        $_i = 0;
+        while($_nombre != $_nb) {
             $_nb = rand(0, 1000);
             $_i += 1;
         }
